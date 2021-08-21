@@ -18,7 +18,8 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit some common stuff from Project-Awaken
-$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
+$(call inherit-product, vendor/awaken/config/gsm.mk)
 
 # Gapps
 USE_GAPPS := true
@@ -42,7 +43,7 @@ BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/re
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := komodo_jasmine_sprout
+PRODUCT_NAME := awaken_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
 
