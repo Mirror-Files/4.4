@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit some common stuff from Project-Awaken
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/floko/config/common_full_phone.mk)
 
 # Gapps
 USE_GAPPS := true
